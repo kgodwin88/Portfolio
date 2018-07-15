@@ -1,4 +1,5 @@
 require('dotenv').config()
+var nodemailer = require('nodemailer');
 module.exports = function (app) {
     app.post('/send', function (req, res) {
         const output = `
