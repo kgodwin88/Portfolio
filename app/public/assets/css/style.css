@@ -1,0 +1,121 @@
+html{
+    position: relative;
+    min-height: 100%
+
+}
+body{
+    background-image: url(../images/circles-light.png);
+    margin-bottom: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.content{
+    background-color: blue;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 0px black;
+}
+.gap-right{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.social{
+    float: center;
+}
+.git{
+    margin-right: 10px;
+}
+.linkedin{
+    margin-right: 10px;
+}
+.stack{
+    margin-right: 10px;
+}
+.connect{
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    text-shadow: 1.5px 1.5px 0px #000;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #666666;
+    color: #a6aba5;
+    border-top: 5px solid #4aaaa5;
+}
+.img-thumbnail {
+    position: relative;
+    margin-bottom: 45px;
+    margin-right: 15px;
+}
+.images{
+    float: center;
+}
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    padding: 2px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+}
+.link{
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white;
+}
+.deployed{
+    font-size: 20px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white;
+}
+a:hover{
+    font-size: 150%;
+    cursor: pointer;
+
+}
+h3{
+    font-size: 30px;
+}
+.name{
+    font-size: 25px;
+}
+li{
+    font-size: 20px;
+}
+.form{
+    color: black;
+    text-shadow: 0px 0px 0px;
+    font-size: 15px;
+}
+#submit{
+    color: black;
+}
+.panel-heading{
+    text-shadow: 0px 0px 0px;
+}
+p{
+    font-size: 18px;
+}
