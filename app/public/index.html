@@ -1,104 +1,450 @@
-
 <DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel = "stylesheet" href = "./assets/css/style.css">
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+            crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./assets/css/style.css">
 
 
-    <title>About Me</title>
-</head>
-<body>
-    <div class ="container">
-        <nav class="navbar navbar-default">
-               
-                <div class ="navbar-header">
-                    <a class ="navbar-brand home name"><strong>Kevin Godwin</strong></a>
-                    <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
-                        <span class = "sr-only">Toggle Navigation</span>
-                        <span class = "icon-bar"></span>
-                        <span class = "icon-bar"></span>
-                        <span class = "icon-bar"></span>
-                    </button>
-                </div>
-                <div class = "navbar-collapse collapse" id = "myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a class='home'>About</a>
-                        </li>
-                        <li>
-                            <a class="portfolio">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class ="contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>    
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary" id='home'>
+            <h1 class="nav navbar-brand home name">Kevin Godwin</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse myNavbar" id="myNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style='color:white' href="#aboutSection">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navigation" style='color:white' href="#knowledgeSection">Knowledge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navigation" style='color:white' href="#portfolioSection">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navigation" style='color:white' href="#contactSection">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </div>
-       
-        
-        <div class = "container">
-            <div class = "row">
-                <div class ="col-md-8">
-
-                    <div class = "content">
-                
-                        <h3>About Me</h3>
-                        <hr />
-                        <br/>
-                        <img class = "img-responsive pull-left gap-right" src = "./assets/images/profile-pic.jpg" alt = Kevin Godwin style = "width:220px; height:220px;">
-            
-            
-                        <p class> 
-                            My name is Kevin and I am currently an Automotive Technician for Audi that it trying to make my way into the web developement community.  I am eager to start my career as a Full Stack Web Developer and use my problem solving skills that i developed as a Technician to solve difficult problems with web based applications. I have 
-                            knowledge with html, css, javascript, node.js, express.js, handlebars, Mysql, Mongodb, and React.  I am always eager to increase my knowledge to improve my ablitities to become a better web developer.
-                        </p>
-                            
-                        <p>
-                            My formal web development training comes from a Full Stack Web Development course that I took at the University of North Carolina in Charlotte, NC.  I have learned many new techlogies through this courese but the technology that I most enjoyed learning would be anything that deals with javascript.
-
-                        </p>
-                    </div>  
-                </div>  
-               
-                <div class = "col-md-4">
-                    <div class = "connect">
-                        <h3>Connect with Me</h3>
-                        <hr />
-                        <div class = "social">
-                            <a href = "https://github.com/kgodwin88" target = "_blank"><img class = "git" src = "./assets/images/github.png" alt = Github logo style = "width:60px; height:60px"></a>
-                            <a href = "https://www.linkedin.com/in/kevin-godwin-63a579156/" target = "_blank"><img class = "linkedin" src = "./assets/images/linkedin.png" alt = Linkedin logo style = "width:60px; height:60px"></a>
-                            <a href = "https://stackoverflow.com/users/story/9416539#_=_" target = "_blank"><img class = "stack" src = "./assets/images/stackoverflow.png" alt = stackoverflow logo style = "width:60px; height:60px"></a>
-                        </div>
-                        <br/>
-                    
-                    </div>
-                </div>
-                     
-        
-                
+        <div class="parallax-window container-responsive" data-parallax="scroll" data-image-src="./assets/images/background.jpg">
+            <div class="caption text-center" data-parallax="scroll">
+                <span class="title">
+                    <strong>Kevin Godwin</strong>
+                </span>
+                <br>
+                <span class="description">Full-Stack Web Developer</span>
+                <hr width="25%">
+                <a href="https://www.twitter.com/kevgod88">
+                    <img class='git' src="assets/images/twitter.png" target="_blank" alt="Twitter" title="My Twitter Link">
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-godwin/">
+                    <img class="linkedin" src="./assets/images/linkedin.png" target="_blank" alt='Linkedin' title="My LinkedIn Link">
+                </a>
+                <a href="https://github.com/kgodwin88">
+                    <img class="git" src="./assets/images/github.png" target='_blank' alt='Github' title="My Github Link">
+                </a>
             </div>
         </div>
+    
+            <section id='aboutSection'>
+
+                <div class="container centerText">
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="content">
+
+                                <h3>About Me</h3>
+                                <hr />
+                                <br/>
+                                <img class="img-responsive float-left gap-right" src="./assets/images/profile-pic.jpg" alt='Kevin Godwin' style="width:220px; height:220px;">
 
 
+                                <p>
+                                    My name is Kevin and I am currently an Automotive Technician for Audi that it trying to make my way into the web development
+                                    community. I am eager to start my career as a Full Stack Web Developer and use my problem
+                                    solving skills that i developed as a Technician to solve difficult problems with web
+                                    based applications. I have knowledge with html, css, javascript, node.js, express.js,
+                                    handlebars, Mysql, Mongodb, and React. I am always eager to increase my knowledge to
+                                    improve my abilities to become a better web developer.
+                                </p>
+
+                                <p>
+                                    My formal web development training comes from a Full Stack Web Development course that I took at the University of North
+                                    Carolina in Charlotte, NC. I have learned many new technologies through this course but
+                                    the technology that I most enjoyed learning would be anything that deals with javascript.
+
+                                </p>
+
+                            </div>
+                            <a class="text-center arrow nav-link" href="#knowledgeSection">
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class = 'background' data-parallax="scroll" data-image-src="./assets/images/background.jpg">
+            <div class='slant' >
+                
+            </div>
+            <section id="knowledgeSection">
+                <div class="container centerText">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Things I know</h2>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="icon-div-height">
+                                <p class="text-center">
+                                    <i class="fas fa-code html-icon"></i>
+                                </p>
+                            </div>
+                            <h3 class="text-center">HTML</h3>
+                            <p>The basis of every webpage, without HTML there would be no Webpages </p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="icon-div-height text-center">
+                                <i class="fab fa-css3-alt css-icon"></i>
+                            </div>
+                            <h3 class="text-center">CSS</h3>
+                            <p>Making Webpages look good. Everything from Bootstrap to Semantic-UI. </p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="icon-div-height text-center">
+                                <i class="fab fa-js icon-size js-icon"></i>
+                            </div>
+                            <h3 class="text-center">JAVASCRIPT</h3>
+                            <p>Making Webpages Interactive with ReactJS, Node, Express, Handlebars just to name a few.</p>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="icon-div-height text-center">
+                                <i class="fas fa-database icon-size db-icon"></i>
+                            </div>
+                            <h3 class="text-center">DATABASE</h3>
+                            <p>When storage is needed thats where the database comes in to play. MySQL, Firebase, and MongoDB
+                                just to name a few.</p>
+                        </div>
+                    </div>
+                    <a class="text-center arrow nav-link" href="#portfolioSection">
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                </div>
+            </section>
+            <div class='slant' >
+                
+                </div>
+            <section id="portfolioSection">
+                <div class="container centerText">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class='content'>
+                                <h3>Portfolio</h3>
+                                <hr />
+                                <br/>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <div class='row'>
+                                <div class='col-md-4'>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/hangman.jpg" alt="HangMan" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Hangman</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/hangman-game'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/hangman-game/">Deployed</a>
+                                    </div>
 
 
+                                    <div class="img-thumbnail text-center">
 
-    <footer>
-       <div class = "container text-center fixed-bottom">
-            Copyright &copy;
-       </div>
-    </footer>
-     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <!-- Include all compiled plugins (below), or include individual files as needed -->
-     <script src="js/bootstrap.min.js"></script>
-     <script src='./assets/javascript/javascript.js'></script>
-</body>
-</html>
+                                        <img src="./assets/images/starwars.png" alt="RPG Game" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>RPG Game</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/unit-4-game'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/unit-4-game/">Deployed</a>
+                                    </div>
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/disney.jpg" alt="Trivia" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Trivia Game</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/Trivia-Game'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/Trivia-Game/">Deployed</a>
+                                    </div>
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/gif.png" alt="Giphy App" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Giphy App</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/giphy-app'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/giphy-app/">Deployed</a>
+                                    </div>
+
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/train.jpg" alt="Train" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Train Scheduler</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/train-sheduler'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/train-scheduler/">Deployed</a>
+                                    </div>
+                                </div>
+                                <div class='col-md-4'>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/jukeboxlogo.png" alt="JukeBox" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Modern Jukebox</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/ModernJukebox'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/ModernJukebox/">Deployed</a>
+                                    </div>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/liri.jpg" alt="Liri" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Liri Node App</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/liri-node-app'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/liri-node-app">Deployed</a>
+                                    </div>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/Bamazon.jpg" alt="Bamazon" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Bamazon</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/bamazon'>Github Repo</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/bamazon">Deployed</a>
+                                    </div>
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/friendfinder.png" alt="Friend Finder" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Friend Finder</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/FriendFinder'>Github Repo</a>
+                                        <a class='deployed' href="https://friendfinder-kg.herokuapp.com/">Deployed</a>
+                                    </div>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/burger.jpg" alt="Burger" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Burger App</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/burgers'>Github Repo</a>
+                                        <a class='deployed' href="https://burgers-kg.herokuapp.com/">Deployed</a>
+                                    </div>
+                                </div>
+                                <div class='col-md-4'>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/InAPinch.png" alt="In a Pinch" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>In A Pinch</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/InAPinch'>Github Rep</a>
+                                        <a class='deployed' href="https://cryptic-spire-46281.herokuapp.com/">Deployed</a>
+                                    </div>
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/news.jpg" alt="Mongo Scraper" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Mongo Scraper</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/MongoDB-Scraper'>Github Rep</a>
+                                        <a class='deployed' href="https://mongoscraper-kg.herokuapp.com/">Deployed</a>
+                                    </div>
+
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/rolly.jpg" alt="Memory Game" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>Memory Game</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/memory-click-game'>Github Rep</a>
+                                        <a class='deployed' href="https://kgodwin88.github.io/memory-click-game">Deployed</a>
+                                    </div>
+                                    <div class="img-thumbnail text-center">
+
+                                        <img src="./assets/images/news.jpg" alt="Memory Game" class="image-responsive" style="width:250px; height:250px">
+
+                                        <div class="info">
+                                            <p>NY Times</p>
+                                        </div>
+                                        <a class='link' href='https://github.com/kgodwin88/NYTimes-search'>Github Rep</a>
+                                        <a class='deployed' href="https://nytimeskg.herokuapp.com/">Deployed</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="text-center arrow nav-link" href="#contactSection">
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                </div>
+            </section>
+            <div class='slant' >
+                
+                </div>
+            <section id="contactSection">
+                <div class="container contact-container-reveal">
+                    <div class="row contact-row contact-h2">
+                        <div class="col-md-12">
+                            <h2>Contact Me</h2>
+                            <hr/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <a class='mail'>
+                                <i class="fas fa-envelope envelope"></i>
+                            </a>
+                            <div class="col-md-12 text-center">
+                                <p>Send me a message and I'll get back to you soon.</p>
+                            </div>
+                        </div>
+                        <a class="center arrow nav-link" href="#home">
+                            <i class="fas fa-angle-up"></i>
+                        </a>
+                    </div>
+            </section>
+            </div>
+            <footer id="footerSection">
+                <div class="container-fluid">
+
+                    <ul class="d-flex justify-content-center">
+                        <li class='nav-item'>
+                            <a class='nav-link' style='color:white' href='#home'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style='color:white' href="#aboutSection">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navigation" style='color:white' href="#knowledgeSection">Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navigation" style='color:white' href="#portfolioSection">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navigation" style='color:white' href="#contactSection">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="text-center">
+                        © 2018 | Designed by Kevin Godwin |
+                    </div>
+                </div>
+
+            </footer>
+            <div class="modal" id="contact">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title text-center"></h2>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <strong>
+                                        <h3>Contact</h3>
+                                    </strong>
+                                </div>
+                                <div class="panel-body">
+                                    <form role="form" id="contactForm">
+
+                                        <div class="form-group">
+                                            <label class='form' for="name">Name:</label>
+                                            <input type="text" class=" input form-control" placeholder="John Doe" id="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class='form' for="email">Email:</label>
+                                            <input type="text" class="input form-control" placeholder="example@gmail.com" id="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class='form' for="message">Message:</label>
+                                            <textarea class="input form-control" rows="6" placeholder="Message" id="message"></textarea>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="errorMessage">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title text-center" id="header"></h2>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-center" id="errors"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary btn-block" id="exit">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src='./assets/javascript/javascript.js'></script>
+            <script src='./assets/javascript/parallax.js'></script>
+
+    </body>
+
+    </html>

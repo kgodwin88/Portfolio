@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    $('.mail').on('click', () => {
+        $('#contact').modal('show');
+    })
     $("#submit").on("click", function(){
 
         event.preventDefault();
@@ -19,22 +22,23 @@ $(document).ready(function(){
             }
         $.post('/send', contactInfo, function(response){
             if (response){
-                alert("Contact Info Sent")
+                $("#header").text("Thank You");
+                $("#errors").text("Contact Info Sent");
+                $("#errorMessage").modal("show");
+                
             }
         })
         }
         else{
-            alert("Please fill out all information befor submitting")
+            $("#header").text("Error");
+            $("#message").text("Please fill out all information before submitting");
+            $("#errorMessage").modal("show");
         }
         $("#contactForm")[0].reset();
+        $('#contact').modal('hide')
     });
-    $('.home').on('click', function(){
-        window.location = '/'
-    })
-    $('.portfolio').on('click', function(){
-        window.location = '/portfolio'
-    })
-    $('.contact').on('click', function(){
-        window.location = '/contact'
-    })
+    $("#exit").on("click", function () {
+        $("#errorMessage").modal("hide");
+    });
+
 });
